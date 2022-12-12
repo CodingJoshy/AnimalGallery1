@@ -1,0 +1,32 @@
+body{
+    background-image:url(https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg?quality=85&w=2400);
+    background-repeat:repeat;background-size:cover;
+    font-family:'Courier New', Courier, monospace ;text-align: center;
+    color: antiquewhite;
+
+}
+h1{
+    font-size:50px;
+}
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+img{
+    width: 200px; height: 200px;
+}
+img:hover{
+    transform:translateY(-25px);
+}
+marquee{
+    direction: left;
+
+}
+.blink{
+    animation:blinker 1.5s linear infinite;
+}
+@keyframes blinker{
+    25%{
+        opacity:0;
+    }
+}
